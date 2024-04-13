@@ -1,5 +1,6 @@
 import './App.css'
 import { Button } from './components/Button'
+import { RandomComponent } from './components/RandomComponent';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <h1>SEMINARIO DE SISTEMAS</h1>
-      <Button text={buttonText}/>
+      <RandomComponent/>
     </>
   )
 }
