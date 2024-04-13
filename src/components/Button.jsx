@@ -7,7 +7,7 @@ export const Button = props => {
     const[count, setCount] = useState(0);
 
     function handlerButton() {
-        setCount(count +1);
+        setCount(count +5);
     }
     return (
         <button onClick={ handlerButton }>
